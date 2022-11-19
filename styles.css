@@ -1,0 +1,57 @@
+/* * {
+    border: 0.5px solid blue;
+} */
+
+html {
+    height: 100%;
+}
+body {
+    width: 100vh;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-side-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.side-photo {
+    background: url(/Users/joelbedard/Developer/repos/Odin-Sign-Up-Form/img/jesse-bauer-uhkH4kdA1MA-unsplash.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 550px;  
+    position: relative;
+
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap: 50px;
+    width: 550px;
+    background: #00000088 30%;
+    top: 200px;
+}
+
+.logo {
+    height: 150px;
+    width: auto;
+}
+
+.logo-text {
+    color: white;
+}
