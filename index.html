@@ -14,7 +14,8 @@
 
         <div class="side-photo">
             <div class="logo-container">
-             <img class="logo" src="/Users/joelbedard/Developer/repos/Odin-Sign-Up-Form/img/odin-lined.png" alt="logo">
+                <img class="logo" src="/Users/joelbedard/Developer/repos/Odin-Sign-Up-Form/img/odin-lined.png"
+                    alt="logo">
                 <div class="logo-text">LOGO</div>
             </div>
             <div class="photo-credit"></div>
@@ -25,10 +26,45 @@
                 blablsa
             </div>
             <div class="form-container">
-                <form action=""></form>
-                <button>Create account</button>
+                <form action="" method="post" id="info-submit">
+                    <h2>Let's do this!</h2>
+                    <div class="row">
+                        <div class="box">
+                            <label for="first_name">First Name:</label>
+                            <input type="text" id="first_name" name="first_name">
+                        </div>
+                        <div class="box">
+                            <label for="Last_name">Last Name:</label>
+                            <input type="text" id="last_name" name="last_name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="box">
+                            <label for="user_email">Email:</label>
+                            <input type="email" id="user_email" name="email">
+                        </div>
+                        <div class="box">
+                            <label for="user_phone">Phone Number:</label>
+                            <input type="number" id="user_phone" name="user_phone">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="box">
+                            <label for="user_password">Password:</label>
+                            <input type="password" id="user_password" name="password">
+                        </div>
+                        <div class="box">
+                            <label for="user_password">Confirm Password:</label>
+                            <input type="password" id="user_password" name="password">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="bottom-text">
+                <button type="submit" form="info-submit">Create account</button>
                 <div>Already have an account? Log in</div>
             </div>
+
         </div>
     </div>
 </body>

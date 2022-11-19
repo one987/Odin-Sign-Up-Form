@@ -1,11 +1,15 @@
 /* * {
     border: 0.5px solid blue;
 } */
+:root {
+    --main-bg-color: #E5E3E0;
+}
 
 html {
     height: 100%;
 }
 body {
+    background-color: var(--main-bg-color);
     width: 100vh;
     min-height: 100%;
     margin: 0;
@@ -14,16 +18,17 @@ body {
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
+    display: inline-grid;
+    grid-template-columns: 1fr auto;
 }
 
 .right-side-container {
     height: 100vh;
+    width: 66vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 50px;
+    gap: 50px;
 }
 
 .side-photo {
@@ -42,7 +47,7 @@ body {
     justify-content: center;
     position: absolute;
     gap: 50px;
-    width: 550px;
+    width: 100%;
     background: #00000088 30%;
     top: 200px;
 }
@@ -54,4 +59,27 @@ body {
 
 .logo-text {
     color: white;
+}
+
+.form-container {
+    background-color: white;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.form-container,
+.top-text,
+.bottom-text {
+    padding-left: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
 }
