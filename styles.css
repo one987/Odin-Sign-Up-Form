@@ -41,7 +41,7 @@ body {
 }
 
 .side-photo {
-    background: url("./img/jesse-bauer-uhkH4kdA1MA-unsplash.jpg");
+    background: url(./img/jesse-bauer-uhkH4kdA1MA-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
