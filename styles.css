@@ -8,6 +8,7 @@
     /* --main-bg-color: #E5E3E0; */
     --main-bg-color: #CAAC8E;
     --main-white-color: #fefefa;
+    --main-green-color: #8BA95C;
 }
 
 html {
@@ -32,7 +33,7 @@ body {
 
 .right-side-container {
     height: 100vh;
-    width: 66vw;
+    width: 75vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,7 +95,7 @@ body {
     background-color: var(--main-white-color);
     width: 100%;
     padding-bottom: 20px;
-    box-shadow: 0px 5px 10px #00000088;
+    box-shadow: 0px 5px 5px #00000088;
 }
 
 .form-container,
@@ -123,7 +124,7 @@ input {
 }
 
 button {
-    background-color: #8BA95C;
+    background-color: var(--main-green-color);
     width: 200px;
     border: none;
     border-radius: 5px;
@@ -134,4 +135,23 @@ button {
     display: inline-block;
     font-size: 1rem;
     margin-bottom: 20px;
+    box-shadow: 0px 5px 5px #00000088;
 }
+
+button:hover {
+    background-color: #59752b;
+   
+}
+    
+
+
+input:hover {
+    box-shadow: 0px 5px 5px lightgrey; 
+}
+
+input:focus {
+    outline-color: #8BA95C;
+    box-shadow: 0px 5px 5px lightgrey;
+
+}
+
